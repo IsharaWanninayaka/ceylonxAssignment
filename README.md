@@ -6,55 +6,53 @@
 
 A feature-rich task management application built with Flutter, featuring Firebase authentication, cloud database, and weather API integration.
 
-## 📱 Screenshots
+## * Screenshots
 
 | Login Screen | Register Screen | Home Screen |
 |--------------|-----------------|-------------|
-| <img src="screenshots/login.png" width="200"> | <img src="screenshots/register.png" width="200"> | <img src="screenshots/home.png" width="200"> |
+| <img src="screenshots/login.jpeg" width="200"> | <img src="screenshots/register.jpeg" width="200"> | <img src="screenshots/tasklist.jpeg" width="200"> |
 
 | Add Task | Weather | Profile |
 |----------|---------|---------|
-| <img src="screenshots/add_task.png" width="200"> | <img src="screenshots/weather.png" width="200"> | <img src="screenshots/profile.png" width="200"> |
+| <img src="screenshots/addtask.jpeg" width="200"> | <img src="screenshots/weather.jpeg" width="200"> | <img src="screenshots/profile.jpeg" width="200"> |
 
-## ✨ Features
+## * Features
 
-### ✅ **Authentication**
+### + **Authentication**
 - Email/Password sign up and login using Firebase Auth
 - Secure session management with Shared Preferences
 - Comprehensive error handling for auth scenarios
 - Logout functionality
 
-### ✅ **Task Management**
+### + **Task Management**
 - **Create**: Add new tasks with title, description, due date, and priority
 - **Read**: View tasks in organized lists with sorting options
 - **Update**: Edit existing tasks or mark as complete/incomplete
 - **Delete**: Remove tasks with confirmation dialog
 - **Real-time sync**: Instant updates with Firebase Firestore
 
-### ✅ **Local Storage**
+### + **Local Storage**
 - Persistent login state using Shared Preferences
 - Last app open time tracking and display
 - User preferences storage
 
-### ✅ **API Integration**
+### + **API Integration**
 - Real-time weather data from OpenWeatherMap API
 - Location-based weather information
 - Loading states, error handling, and success displays
 - Dedicated weather screen with detailed information
 
-### ✅ **User Interface**
-- Responsive design using MediaQuery and LayoutBuilder
+### + **User Interface**
+- Responsive design using MediaQuery
 - Clean, modern Material Design
 - Dark mode ready (theme configurable)
 - Adaptive layouts for different screen sizes
 - No hard-coded dimensions
 
-## 🏗️ Project Structure
+## * Project Structure
 
 ```
 lib/
-├── config/                    # Configuration files
-│   └── api_config.dart       # API keys and app configuration
 │
 ├── constants/                 # App constants
 │   └── app_constants.dart    # Shared constants and configurations
@@ -92,7 +90,7 @@ lib/
 └── main.dart                 # App entry point
 ```
 
-## 🚀 Getting Started
+## * Getting Started
 
 ### Prerequisites
 

@@ -1,0 +1,112 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# IntelliJ / Android Studio
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code
+.vscode/
+
+# Flutter / Dart / Pub
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub/
+.pub-cache/
+build/
+**/doc/api/
+**/ios/Flutter/.last_build_id
+
+# Android
+android/.gradle/
+android/local.properties
+android/key.properties
+android/app/debug/
+android/app/profile/
+android/app/release/
+*.jks
+
+# iOS
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+
+# macOS
+macos/Pods/
+
+# Windows
+windows/flutter/ephemeral/
+
+# Linux
+linux/flutter/ephemeral/
+
+# Symbolication & obfuscation
+app.*.symbols
+app.*.map.json
+
+# ======================== ADD THESE NEW ENTRIES ========================
+
+# Firebase Configuration Files (CRITICAL - DO NOT COMMIT!)
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+lib/firebase_options.dart
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# API Keys and Secrets
+*_key.txt
+*_secret.txt
+secrets/
+keys/
+
+# User-specific files
+.user_preferences
+
+# Flutter coverage
+coverage/
+
+# Flutter drive
+.drive/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Log files
+*.log
+logs/
+
+# System files
+Thumbs.db
+
+# IDE specific files (additional)
+*.sublime-*
+*.code-workspace
+
+# Package lock files (if using npm for web)
+package-lock.json
+yarn.lock
+
+# Flutter web
+web/
+
+# Test coverage
+lcov.info

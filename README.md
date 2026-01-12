@@ -161,18 +161,13 @@ flutter run
 flutter build apk --release
 ```
 
-## 🔧 Configuration
+## * Configuration
 
 ### Environment Variables
 Create `.env` file in project root:
 ```env
 # Weather API Configuration
 WEATHER_API_KEY=your_openweathermap_api_key_here
-
-# Firebase Configuration (if using environment variables)
-# FIREBASE_API_KEY=your_key_here
-# FIREBASE_AUTH_DOMAIN=your-project.firebaseapp.com
-# FIREBASE_PROJECT_ID=your-project-id
 ```
 
 ### Firebase Security Rules
@@ -191,7 +186,7 @@ service cloud.firestore {
 }
 ```
 
-## 📦 Dependencies
+## * Dependencies
 
 ```yaml
 dependencies:
@@ -199,35 +194,25 @@ dependencies:
     sdk: flutter
   
   # Firebase
-  firebase_core: ^2.24.3
-  firebase_auth: ^4.14.0
-  cloud_firestore: ^4.15.0
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.3.1
+  cloud_firestore: ^5.6.0
   
   # HTTP & API
-  http: ^1.1.2
+  http: ^1.2.2
   
   # State Management
   provider: ^6.1.1
   
   # Local Storage
-  shared_preferences: ^2.2.2
+  shared_preferences: ^2.5.3
   
   # Utilities
   intl: ^0.19.0
   flutter_dotenv: ^5.1.0
   
-  # UI
-  flutter_spinkit: ^5.2.0  # Loading animations
 ```
 
-## 🔐 Security Implementation
-
-### What's Secured
-- ✅ Firebase API keys excluded via `.gitignore`
-- ✅ Environment variables for sensitive data
-- ✅ `.env` file excluded from version control
-- ✅ Template files provided for configuration
-- ✅ Proper Firestore security rules
 
 ### Files Excluded (.gitignore)
 ```
@@ -245,7 +230,7 @@ lib/firebase_options.dart
 *_secret.txt
 ```
 
-## 🧪 Testing
+## * Testing
 
 ### Run Tests
 ```bash
@@ -266,7 +251,7 @@ flutter analyze
 - Error scenarios handling
 - Responsive layout testing
 
-## 🚀 Deployment
+## * Deployment
 
 ### Android
 ```bash
@@ -277,16 +262,7 @@ flutter build apk --release
 flutter build appbundle --release
 ```
 
-### iOS
-```bash
-# Build for iOS
-flutter build ios --release
-
-# Open in Xcode
-open ios/Runner.xcworkspace
-```
-
-## 📝 API Documentation
+## * API Documentation
 
 ### OpenWeatherMap API
 - **Endpoint**: `https://api.openweathermap.org/data/2.5/weather`
@@ -298,43 +274,30 @@ open ios/Runner.xcworkspace
 - **Firestore**: Real-time database for tasks
 - **Storage**: User data and app state
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature/amazing-feature`
-3. Commit changes: `git commit -m 'Add amazing feature'`
-4. Push to branch: `git push origin feature/amazing-feature`
-5. Open a Pull Request
 
 ## 📄 License
 
 This project is developed for educational and demonstration purposes as part of an internship assessment.
 
-## 🙏 Acknowledgments
+## * Acknowledgments
 
 - [Flutter](https://flutter.dev) for the amazing framework
 - [Firebase](https://firebase.google.com) for backend services
 - [OpenWeatherMap](https://openweathermap.org) for weather data API
 - [Provider](https://pub.dev/packages/provider) for state management
 
-## 📧 Contact
+## * Contact
 
-**Developer**: [Your Name]  
-**Email**: [Your Email]  
-**GitHub**: [@YourUsername](https://github.com/YourUsername)  
-**LinkedIn**: [Your Profile](https://linkedin.com/in/yourprofile)
+**Developer**: W.M.I.S Wanninayaka  
+**Email**: isharawanninayaka26@gmail.com
+**GitHub**: https://github.com/IsharaWanninayaka
+**LinkedIn**: linkedin.com/in/ishara-wanninayaka-b05173327
 
-## 🎯 Project Status
+## * Project Status
 
-**Complete** ✅  
+**Complete**  
 All required features implemented and tested. Ready for review.
 
 ---
 
-<div align="center">
-  
-**Built with ❤️ using Flutter & Firebase**
 
-⭐ Star this repo if you found it helpful!
-
-</div>

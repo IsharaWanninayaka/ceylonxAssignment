@@ -176,14 +176,22 @@ Update Firestore rules in Firebase Console:
 rules_version = '2';
 service cloud.firestore {
   match /databases/{database}/documents {
+
     match /tasks/{taskId} {
-      allow read, write: if request.auth != null && request.auth.uid == resource.data.userId;
+      allow create: if request.auth != null
+        && request.auth.uid == request.resource.data.userId;
+
+      allow read, update, delete: if request.auth != null
+        && request.auth.uid == resource.data.userId;
     }
+
     match /users/{userId} {
-      allow read, write: if request.auth != null && request.auth.uid == userId;
+      allow read, write: if request.auth != null
+        && request.auth.uid == userId;
     }
   }
 }
+
 ```
 
 ## * Dependencies
